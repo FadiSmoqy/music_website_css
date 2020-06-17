@@ -9,7 +9,7 @@
 .header-section{
     height: 100vh;
     width: 100vw;
-    background: url('/templtes/musicTemplate/images/music\ background.png');
+    background: url('/templtes/musicTemplate/images/music\ background3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -55,34 +55,68 @@
     font-size: 30px;
     font-weight: 300;
 }
-/*-----------------main-header----------------------*/
+/*--------------main-header----------------------*/
 .main-header{
     height: calc(100% - 90px);
-    display: flex;
+    display:flex;
+    justify-content: center;
     align-items: center;
 }
-.main-header img{
-    align-self: flex-end;
-    display:inline-block;
-    height: 550px;
+.main-header-box{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*.main-header-box-1*/
+.main-header-box-1{
+    padding-top: 100px;
+}
+.main-header-box-1 h1{
+    font-size: 50px;
+    margin-top: -80px;
     
 }
-.main-header-box{
-    margin-left: 150px;
-    height: 200px;
-}
-.main-header-box h1{
-    font-size: 40px;
-    padding-bottom: 15px;
-}
-.main-header-box p{
-    width: 370px;
+.main-header-box-1 p{
     font-size: 20px;
-    padding-bottom: 30px;
 }
-.main-header-box a{
-    border-radius: 5px;
-    padding: 10px 10px;
-    text-decoration: none;
-    background-color: rgb(8, 177, 255);
+/*.main-header-box-2*/
+.main-header-box-2{
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
 }
+.main-header-box-2 img{ 
+    height: 400px;
+    width: 400px;
+}
+/*main-header-icons*/
+.iconsBox{
+    padding-left: 10px;
+    height: 100px;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    background:#202027;
+    
+}
+.icons i{
+    font-size: 40px;
+    color: rgb(226, 226, 226);
+}
+.icons p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
